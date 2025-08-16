@@ -1,9 +1,8 @@
 # Traffic Sign Recognition System
 
-This project implements a **two-stage Traffic Sign Recognition (TSR) pipeline**:
+This project implements **Traffic Sign Recognition (TSR) pipeline**:
 
-1. **Detection/Segmentation** of traffic signs in input images (complex backgrounds).
-2. **Classification** of the detected signs into their correct categories.
+**Classification** of the Traffic Signs into their correct categories.
 
 We compare two classification models:
 
@@ -58,9 +57,8 @@ EfficientNet provides higher accuracy and efficiency, showing benefits of modern
 ## Pipeline Overview
 
 1. **Input**: Traffic scene image
-2. **Segmentation/Detection**: Extract traffic signs (bounding box / segmentation mask)
-3. **Classification**: Use Custom CNN and EfficientNet for label prediction
-4. **Comparison**: Evaluate both models on accuracy, inference time, and robustness
+2. **Classification**: Use Custom CNN and EfficientNet for label prediction
+3. **Comparison**: Evaluate both models on accuracy, inference time, and robustness
 
 ---
 
@@ -83,7 +81,6 @@ EfficientNet provides higher accuracy and efficiency, showing benefits of modern
 
 ## Future Work
 
-- Integrate YOLOv8 / DeepLabV3+ for segmentation (detection stage).
 - Test robustness against adversarial attacks and occlusions.
 - Optimize EfficientNet for mobile deployment (TensorRT, TFLite).
 
@@ -121,5 +118,5 @@ python evaluate.py
 
 ## Author
 
-Kunnu
+Kunal Bhardwaj
 
